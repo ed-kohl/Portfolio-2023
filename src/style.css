@@ -120,6 +120,15 @@ header nav div a{
    
 }
 
+.journey-button{
+    background-color:var(--primary);
+    color:white;
+    border-radius:5px;
+    text-decoration:none;
+    padding:5px 5px 5px 5px;
+   
+}
+
 .icon-image{
     max-height:40px;
 margin: 15px 15px 15px 15px;
