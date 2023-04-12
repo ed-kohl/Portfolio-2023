@@ -23,6 +23,8 @@ line-height:2;
 
 p{
    color:black;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size:18px;
 }
 
 body{
@@ -91,9 +93,12 @@ header nav div a{
 }
 
 .about-text{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:14px;
-   text-align:center;
+    
+    background-color:lightgoldenrodyellow;
+    padding:15px 15px 15px 15px;
+    border: 1px solid white;
+    border-radius:30px;
+ 
 }
 
 .main-button{
@@ -121,6 +126,11 @@ margin: 15px 15px 15px 15px;
 
 }
 
+.centered{
+    display:block;
+    margin: 0 auto;
+    text-align:center;
+}
 
 footer{
         background-color: rgb(216, 191, 216);
