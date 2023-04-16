@@ -17,7 +17,7 @@ h1 {
    font-size:48px;
 text-align:center;
    margin:0 auto;
-   padding:100px 40px 10px 20px;
+   padding:40px 40px 10px 20px;
 line-height:2;
 }
 
@@ -100,6 +100,15 @@ header{
     background-color:var(--primary);
     color:white;
 }
+
+.primary-link{
+    background-color:var(--primary);
+    color:white;
+    padding:10px 10px 10px 10px;;
+    text-decoration:none;
+    border-radius:10px;
+}
+   
 header nav div a{
     
     text-decoration:none;
@@ -164,14 +173,13 @@ line-height: 1,5;
    
 }
 
-.journey-button{
-    background-color:var(--primary);
-    color:white;
-    border-radius:5px;
-    text-decoration:none;
-    padding:5px 5px 5px 5px;
-   
+.logo{
+    display:block;
+    margin:0 auto;
+    border-radius:20px;
+    max-height:150px;
 }
+
 
 .icon-image{
     max-height:40px;
