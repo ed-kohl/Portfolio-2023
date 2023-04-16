@@ -154,6 +154,19 @@ line-height: 1,5;
  
 }
 
+.call2action{
+   padding:15px 15px 15px 15px;
+    background-color:white;
+    color:var(--primary);
+    border:4px dotted darkslategrey;
+    border-radius:20px;
+
+}
+.call2action.primary-link{
+    display:flexbox;
+    margin-right:0 auto;
+}
+
 .main-button{
     color:white;
     
@@ -205,7 +218,7 @@ footer{
         background-color: rgb(216, 191, 216);
         margin: 0 auto;
         min-height: 60px;
-        ;
+        
 }
 
 footer p{
