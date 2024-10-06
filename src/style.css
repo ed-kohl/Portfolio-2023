@@ -189,15 +189,44 @@ line-height: 1,5;
     display:flexbox;
     margin-right:0 auto;
 }
+.projects{
+    
+    padding:2px 2px 2px 2px;
+    padding-top:50px;
+    
+    margin-top:100px;
+
+}
+.projects h2{
+    color:var(--primary);
+    text-align:center;
+    font-size:36px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0 auto;
+    padding:20px 20px 20px 20px;
+    
+}
+
+.oneproject{
+    
+    border-bottom:1px dotted var(--primary);
+    padding:20px 20px 20px 20px;
+    padding-top:50px;
+    
+    
+    margin-bottom:25px; 
+    padding-bottom:25px;
+}
 
 .main-button{
     color:white;
-    
     background-color:darkslategrey;
     border-color:blueviolet 1px dotted;
     border-radius:30px;
     display:block;
     margin:0 auto;
+    font-size:24px;
+    margin-top:40px;
     padding:20px 20px 20px 20px;
     
 }
